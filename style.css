@@ -1,0 +1,58 @@
+body {
+  background-color: rgba(250, 235, 215, 0.595);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+  margin-top: 1.5rem;
+}
+
+p, li {
+  font-family: Times;
+}
+
+a{ 
+  color: inherit; 
+  text-decoration: none;
+} 
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+#photo img{
+  float: right;
+  width: 400px;
+}
+
+header {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  list-style-type: none;
+  margin: 8px;
+  font-weight: 600;
+}
+
+header h3 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
