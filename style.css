@@ -56,3 +56,21 @@ footer {
   font-size: 18px;
   color: red;
 }
+
+.skill, .study {
+  list-style-type: none;
+  display: none;
+}
+
+#skill1, #skill2, #skill3, #skill4, #study1, #study2, #study3, #study4, #study5{
+  list-style-type: disc;
+  font-size: 17px;
+}
+
+#skill1:hover, #skill2:hover, #skill3:hover, #skill4:hover, #study1:hover, #study2:hover, #study3:hover, #study4:hover, #study5:hover{
+  cursor:pointer;
+}
+
+#projects, #aProjects {
+  display: none;
+}
